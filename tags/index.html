@@ -18,7 +18,7 @@
   <meta name="author" content="Xukaiwei">
   <meta name="keywords" content="">
   
-  <title>页面走丢啦~ - Xukaiwei&#39;s blog</title>
+  <title>标签 - Xukaiwei&#39;s blog</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
@@ -48,7 +48,7 @@
 
 
 <body>
-  <header style="height: 85vh;">
+  <header style="height: 80vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -142,18 +142,22 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('/img/default.png') no-repeat center center;
+         style="background: url('/images/tag.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="Page not found">
+            <span class="h2" id="subtitle" title="标签">
               
             </span>
 
             
           </div>
 
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
           
         </div>
       </div>
@@ -162,16 +166,24 @@
 
   <main>
     
-      
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
 
-<script>
-  function redirect() {
-    location.href = "/";
-  }
+<div class="text-center tagcloud">
+  <a href="/tags/html/" style="font-size: 15px; color: #bbe">html</a> <a href="/tags/photoshop/" style="font-size: 15px; color: #bbe">photoshop</a> <a href="/tags/%E3%80%8A%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E3%80%8B/" style="font-size: 15px; color: #bbe">《资治通鉴》</a> <a href="/tags/%E4%BA%BA%E7%89%A9/" style="font-size: 15px; color: #bbe">人物</a> <a href="/tags/%E8%89%B2%E5%BD%A9%E7%A0%94%E7%A9%B6/" style="font-size: 30px; color: #337ab7">色彩研究</a>
+</div>
 
-  //setTimeout(redirect, 3000)
-</script>
-
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     
 
     
