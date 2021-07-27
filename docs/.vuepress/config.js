@@ -1,7 +1,7 @@
 module.exports = {
   title: 'JavaDocs',
   description: 'JavaDocs',
-  base: '/java/',
+  base: '/ecm2/java/',
   markdown: {
     lineNumbers: true
   }
